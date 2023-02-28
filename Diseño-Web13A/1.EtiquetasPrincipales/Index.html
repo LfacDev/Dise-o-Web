@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Css/styles.css">
+    <title>Etiquetas HTML</title>
+</head>
+<body>
+    <!-- Estilos
+        1. A traves de la etiqueta (mala pactica) <style>
+        2. colocando el atributo style dentro de la etiqueta (mala practica) 
+        3. a traves del enlace de un archivo dedicado a los estilos
+     -->
+     <style>
+        /* 
+            1. por etiqueta
+        */
+        em{
+            background-color: #9932cc;
+            color: #fff;
+        }
+        
+     </style>
+
+
+    <header>
+        <!-- Encabezado
+        -Titulo de la pagina / logo
+        -Menu
+        -Buscador
+        -->
+
+        <!-- Etiquetas de titulos y subvtitulos -->
+        <h1>Titulo Principal</h1> <!-- Titulo principal, solo se puede tener un h1 -->
+        <h2>Subtitulo</h2>
+        <h3>nivel 3</h3>
+        <h4>nivel 4</h4>
+        <h5>nivel 5</h5>
+        <h6>nivel 6</h6>
+
+        <!-- Menu -->
+        <nav>
+            <!-- listas -->
+            <!-- ordenadas <ol> -->
+                <ol>
+                    <li> <a href="Elemento1">Elemento 1</a></li>
+                    <li>Elemento 2</li>
+                    <li>Elemento 3</li>
+                </ol>
+                
+
+            <!-- Desordenadas <ul> -->
+                <ul>
+                    <li><a href="Elemento1">Elemento 1</a></li>
+                    <li>Elemento 2</li>
+                    <li>Elemento 3</li>
+                    <!-- li*3>a{elemento$} -->
+                </ul>
+
+                
+                <!-- Elementos en linea y en bloque -->
+                <!-- Bloque: ocupa todo el espacio de la pagina WIDTH
+                    linea: toman el ancho que necesitan para mostrar su contenido -->
+
+                <div> <!-- Es un elemento en linea ------ div contenedor general -->
+                    <!-- alt: se coloca el vinculo o la descripcion de la imagen -->
+                    <img src="./img/Casa.jpg" alt="Casa" width="20%" height="20%">
+                </div> 
+
+        </nav>
+    </header>
+
+    <main>
+        <!-- Contenedor del sitio / contiene todas las secciones del sitio-->
+        <section> <!-- Etiqueta de contenido -->
+            <!-- Etiqueta para seccionar -->
+            <h2>Deportes</h2>
+            <p>Lorem ipsum <em>Texto generico esgfdgfdgfdgfdgfddf</em> sit amet, consectetur adipisicing elit. Magnam quod ratione rem doloremque quis rerum dolores dicta animi sint cupiditate saepe sit hic, accusantium molestiae. Amet, cum numquam! Expedita, quas Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit architecto officia, <em>Lorem ipsum dolor sit amet consectetur adipisicing elit. </em> quaerat veritatis quos ut modi, ea mollitia eius qui ullam reiciendis recusandae nemo minima illo itaque dicta voluptatem maxime.
+            Sint dolore eum consequatur, magnam <i>earum non perferendis iure est</i> omnis perferendis iure est quisquam fugiat soluta assumenda quia ipsa ab voluptatem, a voluptates officiis labore vel? Ex minima sit architecto nesciunt repellat!</p>
+
+            <!-- em: enfasis
+                 i: italica -->
+        </section>
+        <section>
+            <b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae consectetur voluptatem sapiente voluptatibus dicta molestias</b> quod inventore. Sit necessitatibus autem laborum mollitia laboriosam saepe debitis nobis, excepturi et. Rerum, corrupti!
+            <br>
+           <u> Soy un texto subrayado</u>
+           <br>
+           <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde cum perspiciatis consectetur quisquam facilis aliquam reiciendis dolorem odio nulla recusandae, voluptas ipsa corrupti, quidem, quae aliquid eveniet laboriosam debitis suscipit.</small>
+           <br>
+           <s>soy un texto tachado</s> 
+           <br>
+           <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, pariatur ad! Excepturi saepe maiores illum est dolorem iure explicabo aspernatur, odio provident velit nobis placeat labore ab. Libero, nobis itaque?</strong>
+           <hr>
+
+            <!-- 
+                b: negrita
+                 u: subrayado
+                small: hace el texto mas pequeño 
+                s: tachado
+                br: salto de linea
+                strong: negrita
+                hr: linea horizontal
+            -->
+        </section>
+
+        <article><!-- Etiqueta contenedora no hay una jerarquia con section -->
+            <section>
+                <figure><!-- engloba imagenes -->
+                    <img src="./img/Casa.jpg" alt="Casa" width="20%" height="20%">
+                    <figcaption>imagen de maquetacion de casa</figcaption><!-- Leyenda de la imagen -->
+                </figure>
+                <figure><!-- podemos colocar modelos matematicos, codigos -->
+                    <code>
+                        const calculate = () =>{
+                            return 0;
+                        }
+                    </code>
+                    <pre> <!-- representa texto preformateado. El texto en este elemento típicamente se muestra en una fuente fija, no proporcional, exactamente como es mostrado en el archivo. -->
+                        body{
+                            color:  red;
+                          }
+                          a   {
+                            color:green;
+                          }
+                    </pre>
+                </figure>
+            </section>
+            <aside>
+                <!-- etiqueta de informacion no relevante para el sitio
+                    Ej: publicidad, se puede colocar fuera del main -->
+                    aside
+            </aside>
+        </article>
+    </main>
+ <hr>
+    <footer>
+        <!-- pie de pagina
+        -Enlaces a redes sociales
+        -Enlaces a partes de la pagina
+        -Copyright
+        -lista con iconos-->
+        footer
+    </footer>
+</body>
+</html>

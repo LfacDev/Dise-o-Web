@@ -1,0 +1,50 @@
+/* Comentarios paraestilos */
+/* Selectores principales */
+
+/* Por etiqueta 
+    Nombre de la etiqueta
+    h1{
+
+    }
+*/
+
+/* Por id 
+
+#nutricion{
+    
+}
+*/
+
+/* Por clase
+
+.medicina{
+
+}
+
+*/
+
+h1{
+    background-color: coral;
+    text-align: center; /* Alineacion del texto */
+    font-size: 50px; /* tamaño de la fuente --- por defecto es de 16px*/
+    padding: 25px; /* margen interno de la caja */
+    margin: 5px; /* espacio entre elemento y elemento */
+    border: 5px double yellowgreen;
+}
+
+#nutricion{
+    background-color: aquamarine;
+    border-radius: 50px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.medicina{
+    width: 50%; /* el porcentaje depende ddel vh */
+    height: 200px;
+    background-color: chocolate;
+    color: aliceblue;
+}
+
+
+    
