@@ -1,0 +1,33 @@
+*{
+    margin:0 ;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+
+.sec1{
+    width: 500px;
+    height: auto;
+    border: 2px solid red; 
+    padding: 2%; 
+    margin: 2%;
+    box-sizing: border-box;
+       
+
+}
+
+.sec2{
+
+    width: 30%;
+    height: auto;
+    border: 2px solid #13cbd1; 
+    padding: 2%; 
+    margin: 2%;
+    box-sizing: border-box;   
+}
+.div1{
+    width: 30%;
+    background-color: aquamarine;
+    border: 2% solid red;
+    
+}

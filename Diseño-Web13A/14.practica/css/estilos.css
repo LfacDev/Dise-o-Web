@@ -1,0 +1,77 @@
+/* Paleta de colores
+#FFFFFF, #E9C6BE, #D1202D, #890E15, #300006*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    list-style: none;
+}
+
+body{
+    height: 100vh;
+}
+
+.container_header{
+    width: 100%;
+    height: 41%;
+    background-color:#E9C6BE;
+    background-image: linear-gradient(10deg,#927550a1, #300006af,#e9c6bea2 ), url("../img/ImagenManos.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 0.1px;
+
+}
+
+
+.menu{
+    text-align: right;
+    margin-right: 2%;
+    margin-top: 1%;
+}
+
+.menu a{
+    color: #E9C6BE;
+    text-decoration: none;
+}
+
+hr{
+    border-color: #b65f65;
+}
+
+.menu li{ 
+    display: inline-block;
+    padding: 1.2% 2.2%;
+    background-color:#b65f65;
+    margin-top:1%;
+    margin-bottom: 2%;
+    border-radius: 25px;
+    color: #E9C6BE;
+    font-size: 22px;
+}
+
+/* pseudo clase */
+
+.menu >li:hover{
+    background-color: #df757c;
+    border: 2px solid #300006af;
+}
+
+/* Migas de pan, indicarle donde esta */
+
+.menu .btn_contacto{
+    background-color: #df757c;
+    border: 4px solid #300006af;
+}
+
+.title{
+    text-align: center;
+    font-size: 4em;
+    margin-top: 1%;
+    color: #E9C6BE;
+}
+
+
+/* cuando se quiera trabajar con el heihgt en porcentaje se le debe dar al padre un height*/

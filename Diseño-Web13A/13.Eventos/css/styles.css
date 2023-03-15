@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* reacomoda el tamaño de la caja para que se mantenga el tamaño dado */
+}
+
+.h1{
+    border: 2px solid red;
+    background-color: antiquewhite;
+}
+
+.sec1{
+    border: 2px solid red;
+    background-color: blueviolet;
+    width: 25%;
+    height: auto;
+    padding: 2%;
+    color: aliceblue;
+}
